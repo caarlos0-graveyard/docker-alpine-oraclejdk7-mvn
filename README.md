@@ -2,7 +2,7 @@
 
 This image is based on Alpine Linux image, which is only a 5MB image, and contains
 [OracleJDK 7](http://www.oracle.com/technetwork/java/javase/overview/index.html)
- with [Apache Maven](https://maven.apache.org/) 3.2.5 bundled within.
+with [Apache Maven](https://maven.apache.org/) 3.2.5 bundled within.
 
 ## Usage Example
 
@@ -11,11 +11,3 @@ $ cd my/jdk7/project
 $ docker run --rm -v `pwd`:/tmp --workdir /tmp caarlos0/alpine-oraclejdk7-mvn \
   mvn clean install
 ```
-
-
-## Thanks
-
-This project is heavily based on
-[frol/docker-alpine-oraclejdk8](https://github.com/frol/docker-alpine-oraclejdk8).
-
-Many thanks :beers:.
